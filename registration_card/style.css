@@ -1,0 +1,92 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6879E6, #744CA5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h2 {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    font-weight: bold;
+}
+
+.form-group label {
+    width: 52%;
+    font-size: 14px;
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.gender-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.gender-section .gender-label{
+    font-weight: bold;
+    width: 16%;
+    font-size: 14px;
+}
+.radio-group {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.cancel-button button, .submit-button button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cancel-button button {
+    background: #FE5E54;
+}
+.submit-button button {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
